@@ -117,9 +117,9 @@ ol {
 }
 
 p {
-    margin: 20px;
+    /* margin: 20px; */
     font-weight: 300;
-    font-size: 15px;
+    font-size: 17px;
     line-height: 24px;
 }
 
@@ -219,6 +219,18 @@ button {
     height: auto;
     background-size: 100%;
     background-repeat: no-repeat;
+}
+
+
+.banner_bg_inner {
+  width: 100%;
+  float: left;
+  /* background-image: url(../img/banner-bg.png); */
+  /* background-image: url(../img/banner-bg.png); */
+  background-color: #39bcd0;
+  height: auto;
+  background-size: 100%;
+  background-repeat: no-repeat;
 }
 
 
