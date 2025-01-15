@@ -1807,3 +1807,40 @@ color-mix(in srgb, var(--background-color), transparent 30%);
   inset: 0;
   z-index: 2;
 }
+
+
+
+
+.tb_see_more_btn {
+  background-color: var(--tb-btn-bg-color);
+  border-color: var(--tb-btn-border-color);
+  border-radius: var(--tb-btn-border-radius);
+  border-style: solid;
+  border-width: 1px;
+  color: white !important;
+  cursor: pointer;
+  font-family: var(--tb-btn-font);
+  font-size: 14px;
+  font-weight: var(--tb-btn-font-weight);
+  line-height: normal;
+  margin: 0 auto;
+  min-height: var(--tb-btn-height);
+  min-width: var(--tb-btn-width);
+  padding: var(--tb-btn-padding);
+  position: relative;
+  transition: var(--tb-btn-transition);
+}
+
+.tb_see_more_btn:hover {
+  background-color:var(--tb-btn-bg-color-hover);
+  border-color:var(--tb-btn-border-color-hover);
+  color:rgb(88, 173, 219) !important;
+}
+
+.tb_more_btn_loading:before {
+  animation:tb_btn_animation-spinner .5s linear infinite;
+  border:1.5px solid white !important;
+  border-radius:50%;
+  border-right:1.5px solid white !important;
+ 
+}
